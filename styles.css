@@ -1,0 +1,161 @@
+.up {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+
+.rec-1 {
+    height: 150px;
+    background-color: rgb(29, 140, 140);
+    grid-column: 1;
+    position: relative;
+}
+
+.circle-1 {
+    clip-path: circle(15px);
+    background-color: rgb(235, 135, 152);
+    position: absolute;
+    top: .5%;
+    left: 10%;
+    width: 50px;
+    height: 50px;
+}
+
+.circle-2 {
+    clip-path: circle(40px);
+    background-color:rgb(243, 219, 58);
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.circle-3 {
+    clip-path: circle(15px);
+    background-color: rgb(235, 135, 152);
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 50px;
+    height: 50px;
+}
+
+.rec-2 {
+    height: 150px;
+    background-color: rgb(29, 140, 140);
+    grid-column: 2;
+}
+
+.circle-4 {
+    clip-path: circle(15px);
+    background-color: rgb(235, 135, 152);
+    position: absolute;
+    top: 3%;
+    left: 38%;
+    width: 50px;
+    height: 50px;
+}
+
+.circle-5 {
+    clip-path: circle(40px);
+    background-color: rgb(235, 135, 152);
+    position: absolute;
+    top: 15%;
+    left: 29.5%;
+    width: 90px;
+    height: 90px;
+    z-index: 1;
+}
+
+.rec-3 {
+    height: 150px;
+    background-color: rgb(29, 140, 140);
+    grid-column: 3;
+}
+
+.down {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 100px auto;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+.rec-4 {
+    grid: -1 / 1;
+    background-color: rgb(29, 140, 140);
+    margin-top: 15px;
+    padding-top: 15%;
+    position: relative;
+}
+
+.circle-6 {
+    clip-path: circle(15px);
+    background-color: rgb(243, 219, 58);
+    position: absolute;
+    top: 14%;
+    left: 16%;
+    width: 50px;
+    height: 50px;
+}
+
+.triangle-1 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 120px 300px 120px;
+    border-color: transparent transparent #207919 transparent;
+    transform: rotate(0deg);
+    position: absolute;
+    right: 12%;
+    bottom: 0;
+}
+
+.triangle-2 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 100px 170px 100px;
+    border-color: transparent transparent rgb(177, 209, 82)transparent;
+    transform: rotate(0deg);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+img {
+    display: inline-block;
+    width: 50px;
+    opacity: 0.4;
+}
+
+.image-7 {
+    opacity: 10;
+}
+
+.image-8 {
+    opacity: 10;
+}
+
+.image-9 {
+    opacity: 10;
+}
+
+.image-10 {
+    opacity: 10;
+}
+
+.rec-5 {
+    grid: -1 / 1;
+    background-color: rgb(177, 209, 82);
+    display: grid;
+    grid-template-rows: 100px auto;
+    margin-top: 10px;
+    height: 15px;
+    margin-bottom: 30px;
+}
+
+.space {
+    margin-right: 20px;
+}
